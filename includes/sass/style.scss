@@ -1,0 +1,21 @@
+/*!
+Project name: HTML Playground
+Version: ALL
+Author: GINGER
+*/
+
+// ------------------------------------[ style.css start ]
+// Defaults
+@import "variables";
+@import "mixins";
+@import "typography";
+
+// Pages layout
+@import "defaults";
+@import "header";
+@import "layout-index";
+@import "footer";
+
+// RWD
+@import "media_queries";
+// --------------------------------------[ style.css end ]

@@ -1,0 +1,19 @@
+// Navbar
+.navbar-nav {
+	& > li {
+		& > a {
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+	}
+}
+
+.navbar-brand {
+	img {
+		height: 22px;
+	}
+}
+
+.navbar-text {
+	margin-top: 16px;
+}
