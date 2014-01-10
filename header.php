@@ -13,10 +13,11 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default hidden-xs" role="navigation">
 
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#playground-main-menu">
@@ -37,6 +38,8 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projekti <b class="caret"></b></a>
 					<ul class="dropdown-menu">
+						<li><a href="/projects/svg-optimize/">SVG Optimize</a></li>
+						<li class="divider"></li>
 						<li><a href="/projects/svg-animate/">SVG Animate</a></li>
 					</ul>
 				</li>

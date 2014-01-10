@@ -5,7 +5,6 @@ $(document).ready(function(){
 	// image sizes
 	var imgW = $('.panel-body img').width();
 	var imgH = $('.panel-body img').height();
-	$('.img-size').append(imgW + 'x' + imgH);
-
+	$('.img-dimensions').append(imgW + 'x' + imgH + 'px');
 
 });

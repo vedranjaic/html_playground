@@ -3,18 +3,34 @@ Project name: HTML Playground
 Version: ALL
 Author: GINGER
 */
-/* line 4, includes/sass/_header.scss */
+/* line 2, includes/sass/_header.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 8, includes/sass/_header.scss */
 .navbar-nav > li > a {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-/* line 12, includes/sass/_header.scss */
+/* line 16, includes/sass/_header.scss */
 .navbar-brand img {
   height: 22px;
 }
 
-/* line 17, includes/sass/_header.scss */
+/* line 21, includes/sass/_header.scss */
 .navbar-text {
   margin-top: 16px;
+}
+
+/* line 2, includes/sass/_layout-svg-optimize.scss */
+.img-dimensions {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 7, includes/sass/_layout-svg-optimize.scss */
+.img-filesize {
+  font-size: 2em;
 }
