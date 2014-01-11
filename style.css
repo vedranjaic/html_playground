@@ -3,6 +3,12 @@ Project name: HTML Playground
 Version: ALL
 Author: GINGER
 */
+/* line 2, includes/sass/_typography.scss */
+h5 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 /* line 2, includes/sass/_header.scss */
 .navbar {
   margin-bottom: 0;
@@ -24,13 +30,20 @@ Author: GINGER
   margin-top: 16px;
 }
 
-/* line 2, includes/sass/_layout-svg-optimize.scss */
-.img-dimensions {
-  font-style: normal;
-  font-weight: normal;
+/* line 3, includes/sass/_layout-svg-optimize.scss */
+.svg-sample h5 {
+  line-height: 1.4em;
 }
 
-/* line 7, includes/sass/_layout-svg-optimize.scss */
+/* line 8, includes/sass/_layout-svg-optimize.scss */
 .img-filesize {
-  font-size: 2em;
+  font-size: 2.8em;
+  line-height: 1em;
+}
+
+/* line 14, includes/sass/_layout-svg-optimize.scss */
+.img-dimensions,
+.img-outer-dimensions {
+  font-style: normal;
+  font-weight: normal;
 }

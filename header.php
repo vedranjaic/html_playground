@@ -2,6 +2,10 @@
 $request = parse_url($_SERVER['REQUEST_URI']);
 $path = $request["path"];
 $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
+// Date in the past
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Cache-Control: no-cache");
+header("Pragma: no-cache");
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,7 +57,8 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 				</li>
 			</ul>
 			<p class="navbar-text navbar-right">Signed in as <strong>bad motherfucker</strong>.</p>
-
+			<p class="navbar-text navbar-right hidden">Signed in as <strong>you never singed before</strong>.</p>
+			<p class="navbar-text navbar-right hidden">Signed in as <strong>Poncho the Magnificent</strong>.</p>
 		</div>
 		<!-- /.navbar-collapse -->
 
