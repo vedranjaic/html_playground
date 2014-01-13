@@ -32,7 +32,7 @@
 
 		<div class="row">
 
-			<div class="svg-original svg-sample col-sm-6">
+			<div class="svg-original svg-sample col-xs-12">
 				<div class="panel panel-success">
 					<div class="panel-heading">
 						<h5 class="clearfix">
@@ -51,7 +51,9 @@
 					</div>
 					<!-- /.panel-body -->
 					<div class="panel-footer text-muted text-center">
-						<i class="fa fa-picture-o"></i> <?= $svg_original_file; ?> - <i class="img-dimensions"></i>
+						<i class="fa fa-picture-o"></i> <?= $svg_original_file; ?><br>
+						Dimensions: <i class="img-dimensions"></i><br>
+						Resized: <strong>no viewbox</strong>
 					</div>
 					<!-- /.panel-footer -->
 				</div>
@@ -59,12 +61,15 @@
 			</div>
 			<!-- /.svg-original -->
 
-			<div class="svg-minified svg-sample col-sm-6">
+		</div>
+		<div class="row">
+
+			<div class="svg-minified svg-sample col-sm-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h5 class="clearfix">
 							<span class="pull-left">
-								MINIFIED SVG 1.1<br>
+								MINIFIED<br>
 								Precision: 3
 							</span>
 							<span class="img-filesize pull-right">
@@ -88,12 +93,12 @@
 			</div>
 			<!-- /.svg-minified -->
 
-			<div class="svg-minified svg-sample col-sm-6">
+			<div class="svg-minified svg-sample col-sm-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h5 class="clearfix">
 							<span class="pull-left">
-								MINIFIED SVG 1.1<br>
+								MINIFIED<br>
 								Precision: 2
 							</span>
 							<span class="img-filesize pull-right">
@@ -117,12 +122,12 @@
 			</div>
 			<!-- /.svg-minified -->
 
-			<div class="svg-minified svg-sample col-sm-6">
+			<div class="svg-minified svg-sample col-sm-4">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h5 class="clearfix">
 							<span class="pull-left">
-								MINIFIED SVG 1.1<br>
+								MINIFIED<br>
 								Precision: 1
 							</span>
 							<span class="img-filesize pull-right">
