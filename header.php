@@ -2,6 +2,10 @@
 $request = parse_url($_SERVER['REQUEST_URI']);
 $path = $request["path"];
 $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
+// Date in the past
+header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
+header("Cache-Control: no-cache");
+header("Pragma: no-cache");
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +16,11 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- CSS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default hidden-xs" role="navigation">
 
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#playground-main-menu">
@@ -37,6 +41,8 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projekti <b class="caret"></b></a>
 					<ul class="dropdown-menu">
+						<li><a href="/projects/svg-optimize/">SVG Optimize</a></li>
+						<li class="divider"></li>
 						<li><a href="/projects/svg-animate/">SVG Animate</a></li>
 					</ul>
 				</li>
@@ -50,7 +56,8 @@ $result = rtrim(str_replace(basename($_SERVER['SCRIPT_NAME']), '', $path), '/');
 				</li>
 			</ul>
 			<p class="navbar-text navbar-right">Signed in as <strong>bad motherfucker</strong>.</p>
-
+			<p class="navbar-text navbar-right hidden">Signed in as <strong>you never singed before</strong>.</p>
+			<p class="navbar-text navbar-right hidden">Signed in as <strong>Poncho the Magnificent</strong>.</p>
 		</div>
 		<!-- /.navbar-collapse -->
 

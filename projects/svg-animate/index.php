@@ -2,7 +2,13 @@
 
 	<div class="page svg-animate">
 		
-		<h1>SVG</h1>
+		<h3>SVG Animate</h3>
+		<hr>
+
+		<div class="row">
+
+		</div>
+		<!-- /.row -->
 
 	</div>
 	<!-- /.svg-animate -->

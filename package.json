@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "0.1.4",
+  "description": "HTML Playground",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedranjaic/playground.git"
+  },
+  "author": "Vedran Jaic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedranjaic/playground/issues"
+  },
+  "homepage": "https://github.com/vedranjaic/playground",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
