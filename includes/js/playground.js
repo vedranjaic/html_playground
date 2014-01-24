@@ -19,4 +19,12 @@ $(document).ready(function(){
 
 	// check width and push to console
 	// console.log("Outer width of div: " + $(".img-outer-min-1").outerWidth());
+
+	// add fade class
+	$( '#pas, #jez, #puz' ).attr( 'class', 'fade' );
+
+	// add oblak class
+	$( '#oblak-pas, #oblak-jez, #oblak-puz' ).attr( 'class', 'oblak' );
+
+	$( '#pas' ).html('<a xlink:href="#">'+ $( '#pas' ).html() +'</a>')
 });

@@ -7877,3 +7877,182 @@ h5 {
   font-weight: normal;
   text-decoration: none;
 }
+
+/* line 1, includes/sass/_layout-svg-animate.scss */
+.fade {
+  opacity: 1;
+}
+
+/* line 5, includes/sass/_layout-svg-animate.scss */
+.fade .oblak {
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+/* line 12, includes/sass/_layout-svg-animate.scss */
+.fade:hover .oblak {
+  opacity: 1;
+}
+
+/* line 18, includes/sass/_layout-svg-animate.scss */
+#puz #mouth {
+  -webkit-animation-name: hohoho;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-transform-origin: 50%;
+  animation-name: hohoho;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50%;
+}
+
+@-webkit-keyframes hohoho {
+  /* line 33, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: scaleY(1.1) scaleX(1.2);
+  }
+
+  /* line 34, includes/sass/_layout-svg-animate.scss */
+  5% {
+    -webkit-transform: scaleY(2) scaleX(0.9);
+  }
+
+  /* line 35, includes/sass/_layout-svg-animate.scss */
+  10% {
+    -webkit-transform: scaleY(1.1) scaleX(1);
+  }
+
+  /* line 36, includes/sass/_layout-svg-animate.scss */
+  15% {
+    -webkit-transform: scaleY(2) scaleX(0.9);
+  }
+
+  /* line 37, includes/sass/_layout-svg-animate.scss */
+  20% {
+    -webkit-transform: scaleY(1.1) scaleX(1);
+  }
+
+  /* line 38, includes/sass/_layout-svg-animate.scss */
+  27% {
+    -webkit-transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 39, includes/sass/_layout-svg-animate.scss */
+  27% {
+    -webkit-transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 40, includes/sass/_layout-svg-animate.scss */
+  27.5% {
+    -webkit-transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 41, includes/sass/_layout-svg-animate.scss */
+  43% {
+    -webkit-transform: scaleY(1.1) scaleX(1.2);
+  }
+
+  /* line 42, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: scaleY(1.1) scaleX(1.2);
+  }
+}
+
+@keyframes hohoho {
+  /* line 46, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: scaleY(1.1) scaleX(1.2);
+  }
+
+  /* line 47, includes/sass/_layout-svg-animate.scss */
+  5% {
+    transform: scaleY(2) scaleX(0.9);
+  }
+
+  /* line 48, includes/sass/_layout-svg-animate.scss */
+  10% {
+    transform: scaleY(1.1) scaleX(1);
+  }
+
+  /* line 49, includes/sass/_layout-svg-animate.scss */
+  15% {
+    transform: scaleY(2) scaleX(0.9);
+  }
+
+  /* line 50, includes/sass/_layout-svg-animate.scss */
+  20% {
+    transform: scaleY(1.1) scaleX(1);
+  }
+
+  /* line 51, includes/sass/_layout-svg-animate.scss */
+  27% {
+    transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 52, includes/sass/_layout-svg-animate.scss */
+  27% {
+    transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 53, includes/sass/_layout-svg-animate.scss */
+  27.5% {
+    transform: scaleY(2) scaleX(0.95);
+  }
+
+  /* line 54, includes/sass/_layout-svg-animate.scss */
+  43% {
+    transform: scaleY(1.1) scaleX(1.2);
+  }
+
+  /* line 55, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: scaleY(1.1) scaleX(1.2);
+  }
+}
+
+/* line 60, includes/sass/_layout-svg-animate.scss */
+#treecandy:hover #candycane3 {
+  -webkit-animation-name: bellring;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: -1.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-transform-origin: 50% 0%;
+  animation-name: bellring;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1.5s;
+  animation-direction: alternate;
+  transform-origin: 50% 0%;
+  -moz-animation: none;
+}
+
+@-webkit-keyframes bellring {
+  /* line 81, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: rotateZ(7deg);
+  }
+
+  /* line 82, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: rotateZ(-7deg);
+  }
+}
+
+@keyframes bellring {
+  /* line 86, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: rotateZ(7deg);
+  }
+
+  /* line 87, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: rotateZ(-7deg);
+  }
+}

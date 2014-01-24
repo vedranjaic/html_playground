@@ -6,6 +6,8 @@
 		<hr>
 
 		<div class="row">
+			
+			<?php include ('../../includes/images/animate/intro.min.svg') ?>
 
 		</div>
 		<!-- /.row -->
