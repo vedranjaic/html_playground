@@ -37,4 +37,7 @@ $(document).ready(function(){
 	// JezPuz
 	$( '#jez_x5F_kotac_x5F_l, #jez_x5F_kotac_x5F_r, #puz_x5F_kotac_x5F_l, #puz_x5F_kotac_x5F_r' ).attr( 'class', 'kotac' )
 
+	// O nama
+	$( '#jez_x5F_onama_x5F_kotac_x5F_r_x5F_fix, #jez_x5F_onama_x5F_kotac_x5F_l_x5F_fix' ).attr( 'class', 'kotacici' );
+
 });
