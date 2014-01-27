@@ -5,9 +5,10 @@
 		<h3>SVG Animate</h3>
 		<hr>
 
-		<div class="row">
+		<div class="row" id="animate">
 			
-			<?php include ('../../includes/images/animate/intro.min.svg') ?>
+			<?php include ('images/ptica-onama.min.svg') ?>
+			<?php //include ('images/intro.min.svg') ?>
 
 		</div>
 		<!-- /.row -->

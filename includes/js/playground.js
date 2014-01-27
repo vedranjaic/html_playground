@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	// pushes .active in menu
+	// pushes .active in main nav menu
 	$("a[href^='"+this_url+"']").parent().addClass("active");
 
 	// extract original image dimensions and append in html
@@ -20,11 +20,21 @@ $(document).ready(function(){
 	// check width and push to console
 	// console.log("Outer width of div: " + $(".img-outer-min-1").outerWidth());
 
-	// add fade class
+	// Oblaci
+	// add .fade class
 	$( '#pas, #jez, #puz' ).attr( 'class', 'fade' );
-
-	// add oblak class
+	// add .oblak class
 	$( '#oblak-pas, #oblak-jez, #oblak-puz' ).attr( 'class', 'oblak' );
 
-	$( '#pas' ).html('<a xlink:href="#">'+ $( '#pas' ).html() +'</a>')
+	// wrap animals in anchors
+	// $( '#pas' ).html('<a xlink:href="#">'+ $( '#pas' ).html() +'</a>')
+
+	// Ptice
+	// wingsi
+	$( '#wing_x5F_left, #wing_x5F_left_1_, #wing_x5F_left_2_' ).attr( 'class', 'bird_wing_left' );
+	$( '#wing_x5F_right, #wing_x5F_right_1_, #wing_x5F_right_2_' ).attr( 'class', 'bird_wing_right' );
+
+	// JezPuz
+	$( '#jez_x5F_kotac_x5F_l, #jez_x5F_kotac_x5F_r, #puz_x5F_kotac_x5F_l, #puz_x5F_kotac_x5F_r' ).attr( 'class', 'kotac' )
+
 });

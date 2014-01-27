@@ -1,0 +1,129 @@
+// ------------------------------------ [ Ptica-onama mahanje krilom fix ]
+
+.svg-ptica-onama {
+	max-width: 643.78px;
+	height: 84px; 
+	// Wrap the element in a group and move its upper left corner - (0,0) coordinate - to the bottom left of the document.
+	.correction { 
+		-webkit-transform: translate(0px, 21.186px);
+		transform: translate(0px, 21.186px);
+	}
+	// Translate elements to the upper left corner of the .correction group. Transform origin is now unnecesarry.
+	#wing_x5F_onama_x5F_right_x5F_fix > *,
+	#wing_x5F_onama_x5F_left_x5F_fix > * {
+		-webkit-transform: translate(0px, -21.186px);
+		-moz-transform: translate(0px, -21.186px);
+		transform: translate(0px, -21.186px);
+	}
+}
+
+.svg-ptica-onama-inner {
+	-webkit-animation-name: pticaonamatranslate;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-out;
+
+	animation-name: pticaonamatranslate;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes pticaonamatranslate {
+	0% { -webkit-transform: translateX(643.78px); }
+	100% { -webkit-transform: translateX(0); }
+}
+
+@-moz-keyframes pticaonamatranslate {
+	0% { -moz-transform: translateX(643.78px); }
+	100% { -moz-transform: translateX(0); }
+}
+
+@keyframes pticaonamatranslate {
+	0% { transform: translateX(643.78px); }
+	100% { transform: translateX(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------ [ Ptica-onama mahanje krilom desno ]
+
+.svg-ptica-onama #wing_x5F_onama_x5F_right_x5F_fix {
+	-webkit-animation-name: wing_onama_right;
+	-webkit-animation-duration: 0.25s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-name: wing_onama_right;
+	-moz-animation-duration: 0.25s; 
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-direction: alternate;
+  
+	animation-name: wing_onama_right;
+	animation-duration: 0.25s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes wing_onama_right { 
+	0% { -webkit-transform: rotate(20deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes wing_onama_right { 
+	0% { -moz-transform: rotate(20deg); }
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@keyframes wing_onama_right { 
+	0% { transform: rotate(20deg); }
+	100% { transform: rotate(0deg); }
+}
+
+// ------------------------------------ [ Ptica-onama mahanje krilom ljevo ]
+
+.svg-ptica-onama #wing_x5F_onama_x5F_left_x5F_fix {
+	-webkit-animation-name: wing_onama_left;
+	-webkit-animation-duration: 0.25s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-direction: alternate;
+
+	animation-name: wing_onama_left;
+	animation-duration: 0.25s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes wing_onama_left { 
+	0% { -webkit-transform: rotate(20deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes wing_onama_left { 
+	0% { -moz-transform: rotate(20deg); }
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@keyframes wing_onama_left { 
+	0% { transform: rotate(20deg); }
+	100% { transform: rotate(0deg); }
+}

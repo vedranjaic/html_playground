@@ -7879,11 +7879,17 @@ h5 {
 }
 
 /* line 1, includes/sass/_layout-svg-animate.scss */
+.svg-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, includes/sass/_layout-svg-animate.scss */
 .fade {
   opacity: 1;
 }
 
-/* line 5, includes/sass/_layout-svg-animate.scss */
+/* line 11, includes/sass/_layout-svg-animate.scss */
 .fade .oblak {
   opacity: 0;
   transition: opacity .25s ease-in-out;
@@ -7891,12 +7897,44 @@ h5 {
   -webkit-transition: opacity .25s ease-in-out;
 }
 
-/* line 12, includes/sass/_layout-svg-animate.scss */
+/* line 18, includes/sass/_layout-svg-animate.scss */
 .fade:hover .oblak {
   opacity: 1;
 }
 
-/* line 18, includes/sass/_layout-svg-animate.scss */
+/* line 22, includes/sass/_layout-svg-animate.scss */
+.oblak text {
+  text-anchor: middle;
+}
+
+/* line 28, includes/sass/_layout-svg-animate.scss */
+#oblak-puz text {
+  -webkit-transform: translate(161.687px, 309.943px);
+  -moz-transform: translate(161.687px, 309.943px);
+  -o-transform: translate(161.687px, 309.943px);
+  -ms-transform: translate(161.687px, 309.943px);
+  transform: translate(161.687px, 309.943px);
+}
+
+/* line 37, includes/sass/_layout-svg-animate.scss */
+#oblak-jez text {
+  -webkit-transform: translate(278.753px, 385.381px);
+  -moz-transform: translate(278.753px, 385.381px);
+  -o-transform: translate(278.753px, 385.381px);
+  -ms-transform: translate(278.753px, 385.381px);
+  transform: translate(278.753px, 385.381px);
+}
+
+/* line 46, includes/sass/_layout-svg-animate.scss */
+#oblak-pas text {
+  -webkit-transform: translate(645.939px, 312.978px);
+  -moz-transform: translate(645.939px, 312.978px);
+  -o-transform: translate(645.939px, 312.978px);
+  -ms-transform: translate(645.939px, 312.978px);
+  transform: translate(645.939px, 312.978px);
+}
+
+/* line 58, includes/sass/_layout-svg-animate.scss */
 #puz #mouth {
   -webkit-animation-name: hohoho;
   -webkit-animation-duration: 6s;
@@ -7911,148 +7949,829 @@ h5 {
 }
 
 @-webkit-keyframes hohoho {
-  /* line 33, includes/sass/_layout-svg-animate.scss */
+  /* line 73, includes/sass/_layout-svg-animate.scss */
   0% {
     -webkit-transform: scaleY(1.1) scaleX(1.2);
   }
 
-  /* line 34, includes/sass/_layout-svg-animate.scss */
+  /* line 74, includes/sass/_layout-svg-animate.scss */
   5% {
     -webkit-transform: scaleY(2) scaleX(0.9);
   }
 
-  /* line 35, includes/sass/_layout-svg-animate.scss */
+  /* line 75, includes/sass/_layout-svg-animate.scss */
   10% {
     -webkit-transform: scaleY(1.1) scaleX(1);
   }
 
-  /* line 36, includes/sass/_layout-svg-animate.scss */
+  /* line 76, includes/sass/_layout-svg-animate.scss */
   15% {
     -webkit-transform: scaleY(2) scaleX(0.9);
   }
 
-  /* line 37, includes/sass/_layout-svg-animate.scss */
+  /* line 77, includes/sass/_layout-svg-animate.scss */
   20% {
     -webkit-transform: scaleY(1.1) scaleX(1);
   }
 
-  /* line 38, includes/sass/_layout-svg-animate.scss */
+  /* line 78, includes/sass/_layout-svg-animate.scss */
   27% {
     -webkit-transform: scaleY(2) scaleX(0.95);
   }
 
-  /* line 39, includes/sass/_layout-svg-animate.scss */
+  /* line 79, includes/sass/_layout-svg-animate.scss */
   27% {
     -webkit-transform: scaleY(2) scaleX(0.95);
   }
 
-  /* line 40, includes/sass/_layout-svg-animate.scss */
-  27.5% {
-    -webkit-transform: scaleY(2) scaleX(0.95);
-  }
-
-  /* line 41, includes/sass/_layout-svg-animate.scss */
+  /* line 80, includes/sass/_layout-svg-animate.scss */
   43% {
     -webkit-transform: scaleY(1.1) scaleX(1.2);
   }
 
-  /* line 42, includes/sass/_layout-svg-animate.scss */
+  /* line 81, includes/sass/_layout-svg-animate.scss */
   100% {
     -webkit-transform: scaleY(1.1) scaleX(1.2);
   }
 }
 
 @keyframes hohoho {
-  /* line 46, includes/sass/_layout-svg-animate.scss */
+  /* line 85, includes/sass/_layout-svg-animate.scss */
   0% {
     transform: scaleY(1.1) scaleX(1.2);
   }
 
-  /* line 47, includes/sass/_layout-svg-animate.scss */
+  /* line 86, includes/sass/_layout-svg-animate.scss */
   5% {
     transform: scaleY(2) scaleX(0.9);
   }
 
-  /* line 48, includes/sass/_layout-svg-animate.scss */
+  /* line 87, includes/sass/_layout-svg-animate.scss */
   10% {
     transform: scaleY(1.1) scaleX(1);
   }
 
-  /* line 49, includes/sass/_layout-svg-animate.scss */
+  /* line 88, includes/sass/_layout-svg-animate.scss */
   15% {
     transform: scaleY(2) scaleX(0.9);
   }
 
-  /* line 50, includes/sass/_layout-svg-animate.scss */
+  /* line 89, includes/sass/_layout-svg-animate.scss */
   20% {
     transform: scaleY(1.1) scaleX(1);
   }
 
-  /* line 51, includes/sass/_layout-svg-animate.scss */
+  /* line 90, includes/sass/_layout-svg-animate.scss */
   27% {
     transform: scaleY(2) scaleX(0.95);
   }
 
-  /* line 52, includes/sass/_layout-svg-animate.scss */
+  /* line 91, includes/sass/_layout-svg-animate.scss */
   27% {
     transform: scaleY(2) scaleX(0.95);
   }
 
-  /* line 53, includes/sass/_layout-svg-animate.scss */
-  27.5% {
-    transform: scaleY(2) scaleX(0.95);
-  }
-
-  /* line 54, includes/sass/_layout-svg-animate.scss */
+  /* line 92, includes/sass/_layout-svg-animate.scss */
   43% {
     transform: scaleY(1.1) scaleX(1.2);
   }
 
-  /* line 55, includes/sass/_layout-svg-animate.scss */
+  /* line 93, includes/sass/_layout-svg-animate.scss */
   100% {
     transform: scaleY(1.1) scaleX(1.2);
   }
 }
 
-/* line 60, includes/sass/_layout-svg-animate.scss */
-#treecandy:hover #candycane3 {
-  -webkit-animation-name: bellring;
-  -webkit-animation-duration: 3s;
+/* line 99, includes/sass/_layout-svg-animate.scss */
+#jezoko {
+  -webkit-animation-name: jezblink;
+  -webkit-animation-duration: 8s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-delay: -1.5s;
-  -webkit-animation-direction: alternate;
-  -webkit-transform-origin: 50% 0%;
-  animation-name: bellring;
-  animation-duration: 3s;
+  -webkit-transform-origin: 50%;
+  animation-name: jezblink;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-delay: -1.5s;
-  animation-direction: alternate;
-  transform-origin: 50% 0%;
+  transform-origin: 50%;
   -moz-animation: none;
 }
 
-@-webkit-keyframes bellring {
-  /* line 81, includes/sass/_layout-svg-animate.scss */
+@-webkit-keyframes jezblink {
+  /* line 114, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 115, includes/sass/_layout-svg-animate.scss */
+  1% {
+    -webkit-transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 116, includes/sass/_layout-svg-animate.scss */
+  2% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 117, includes/sass/_layout-svg-animate.scss */
+  60% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 118, includes/sass/_layout-svg-animate.scss */
+  61% {
+    -webkit-transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 119, includes/sass/_layout-svg-animate.scss */
+  62% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 120, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes jezblink {
+  /* line 124, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 125, includes/sass/_layout-svg-animate.scss */
+  1% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 126, includes/sass/_layout-svg-animate.scss */
+  2% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 127, includes/sass/_layout-svg-animate.scss */
+  60% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 128, includes/sass/_layout-svg-animate.scss */
+  61% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 129, includes/sass/_layout-svg-animate.scss */
+  62% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 130, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+/* line 136, includes/sass/_layout-svg-animate.scss */
+#jezpuz {
+  -webkit-animation-name: jezpuz;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-name: jezpuz;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes jezpuz {
+  /* line 149, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 152, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: translateX(120px);
+  }
+}
+
+@keyframes jezpuz {
+  /* line 158, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: translateX(0);
+  }
+
+  /* line 161, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: translateX(120px);
+  }
+}
+
+/* line 167, includes/sass/_layout-svg-animate.scss */
+.kotac {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+  -webkit-transform-origin: 50% 52%;
+  -moz-transform-origin: 50% 52%;
+  -o-transform-origin: 50% 52%;
+  -ms-transform-origin: 50% 52%;
+  transform-origin: 50% 52%;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 0;
+}
+
+@-webkit-keyframes spin {
+  /* line 187, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: rotate(4turn);
+  }
+}
+
+@keyframes spin {
+  /* line 191, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: rotate(4turn);
+  }
+}
+
+/* line 198, includes/sass/_layout-svg-animate.scss */
+#pas #rep {
+  -webkit-animation-name: mahanjerepom;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+  -webkit-animation-direction: alternate;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -o-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  animation-name: mahanjerepom;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjerepom {
+  /* line 220, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: rotateZ(3deg);
+  }
+
+  /* line 221, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: rotateZ(-3deg);
+  }
+}
+
+@keyframes mahanjerepom {
+  /* line 225, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: rotateZ(3deg);
+  }
+
+  /* line 226, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: rotateZ(-3deg);
+  }
+}
+
+/* line 230, includes/sass/_layout-svg-animate.scss */
+#pasoko {
+  -webkit-animation-name: pasblink;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50%;
+  animation-name: pasblink;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  transform-origin: 50%;
+  -moz-animation: none;
+}
+
+@-webkit-keyframes pasblink {
+  /* line 245, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 246, includes/sass/_layout-svg-animate.scss */
+  1% {
+    -webkit-transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 247, includes/sass/_layout-svg-animate.scss */
+  2% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 248, includes/sass/_layout-svg-animate.scss */
+  60% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 249, includes/sass/_layout-svg-animate.scss */
+  61% {
+    -webkit-transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 250, includes/sass/_layout-svg-animate.scss */
+  62% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 251, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes pasblink {
+  /* line 255, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 256, includes/sass/_layout-svg-animate.scss */
+  1% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 257, includes/sass/_layout-svg-animate.scss */
+  2% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 258, includes/sass/_layout-svg-animate.scss */
+  60% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 259, includes/sass/_layout-svg-animate.scss */
+  61% {
+    transform: scaleX(1.3) scaleY(0.1);
+  }
+
+  /* line 260, includes/sass/_layout-svg-animate.scss */
+  62% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  /* line 261, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+/* line 270, includes/sass/_layout-svg-animate.scss */
+#treecandy:hover #candycane1,
+#treecandy:hover #candycane2,
+#treecandy:hover #candycane3,
+#treecandy:hover #candycane4,
+#treecandy:hover #candycane5 {
+  -webkit-animation-name: candycanes;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: -0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-transform-origin: 50% 0%;
+  animation-name: candycanes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -0.5s;
+  animation-direction: alternate;
+  transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+}
+
+@-webkit-keyframes candycanes {
+  /* line 290, includes/sass/_layout-svg-animate.scss */
   0% {
     -webkit-transform: rotateZ(7deg);
   }
 
-  /* line 82, includes/sass/_layout-svg-animate.scss */
+  /* line 291, includes/sass/_layout-svg-animate.scss */
   100% {
     -webkit-transform: rotateZ(-7deg);
   }
 }
 
-@keyframes bellring {
-  /* line 86, includes/sass/_layout-svg-animate.scss */
+@keyframes candycanes {
+  /* line 295, includes/sass/_layout-svg-animate.scss */
   0% {
     transform: rotateZ(7deg);
   }
 
-  /* line 87, includes/sass/_layout-svg-animate.scss */
+  /* line 296, includes/sass/_layout-svg-animate.scss */
   100% {
     transform: rotateZ(-7deg);
+  }
+}
+
+/* line 303, includes/sass/_layout-svg-animate.scss */
+.bird_wing_right {
+  -webkit-animation-name: mahanjekrilod;
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+  -webkit-animation-direction: alternate;
+  -webkit-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  -o-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
+  animation-name: mahanjekrilod;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjekrilod {
+  /* line 325, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: rotateZ(20deg);
+  }
+
+  /* line 326, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: rotateZ(-20deg);
+  }
+}
+
+@keyframes mahanjekrilod {
+  /* line 330, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: rotateZ(20deg);
+  }
+
+  /* line 331, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: rotateZ(-20deg);
+  }
+}
+
+/* line 335, includes/sass/_layout-svg-animate.scss */
+.bird_wing_left {
+  -webkit-animation-name: mahanjekrilol;
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0;
+  -webkit-animation-direction: alternate;
+  -webkit-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  -o-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  transform-origin: bottom right;
+  animation-name: mahanjekrilol;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjekrilol {
+  /* line 357, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: rotateZ(20deg);
+  }
+
+  /* line 358, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: rotateZ(-20deg);
+  }
+}
+
+@keyframes mahanjekrilol {
+  /* line 362, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: rotateZ(20deg);
+  }
+
+  /* line 363, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: rotateZ(-20deg);
+  }
+}
+
+/* line 369, includes/sass/_layout-svg-animate.scss */
+#treecandy:hover #bird_x5F_1 {
+  -webkit-animation-name: birdy1;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-name: birdy1;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy1 {
+  /* line 382, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 385, includes/sass/_layout-svg-animate.scss */
+  50% {
+    -webkit-transform: translateX(250px) translateY(-40px);
+  }
+
+  /* line 388, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: translateX(550px);
+  }
+}
+
+@keyframes birdy1 {
+  /* line 394, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: translateX(0);
+  }
+
+  /* line 397, includes/sass/_layout-svg-animate.scss */
+  50% {
+    transform: translateX(250px) translateY(-40px);
+  }
+
+  /* line 400, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+/* line 407, includes/sass/_layout-svg-animate.scss */
+#treecandy:hover #bird_x5F_2 {
+  -webkit-animation-name: birdy2;
+  -webkit-animation-duration: 3.2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-name: birdy2;
+  animation-duration: 3.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy2 {
+  /* line 420, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 423, includes/sass/_layout-svg-animate.scss */
+  44% {
+    -webkit-transform: translateX(200px) translateY(-20px);
+  }
+
+  /* line 426, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: translateX(500px);
+  }
+}
+
+@keyframes birdy2 {
+  /* line 432, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: translateX(0);
+  }
+
+  /* line 435, includes/sass/_layout-svg-animate.scss */
+  44% {
+    transform: translateX(200px) translateY(-20px);
+  }
+
+  /* line 438, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: translateX(500px);
+  }
+}
+
+/* line 445, includes/sass/_layout-svg-animate.scss */
+#treecandy:hover #bird_x5F_3 {
+  -webkit-animation-name: birdy3;
+  -webkit-animation-duration: 3.6s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-name: birdy3;
+  animation-duration: 3.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy3 {
+  /* line 458, includes/sass/_layout-svg-animate.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 461, includes/sass/_layout-svg-animate.scss */
+  34% {
+    -webkit-transform: translateX(170px) translateY(-60px);
+  }
+
+  /* line 464, includes/sass/_layout-svg-animate.scss */
+  100% {
+    -webkit-transform: translateX(500px) translateY(-80px);
+  }
+}
+
+@keyframes birdy3 {
+  /* line 470, includes/sass/_layout-svg-animate.scss */
+  0% {
+    transform: translateX(0);
+  }
+
+  /* line 473, includes/sass/_layout-svg-animate.scss */
+  34% {
+    transform: translateX(170px) translateY(-60px);
+  }
+
+  /* line 476, includes/sass/_layout-svg-animate.scss */
+  100% {
+    transform: translateX(500px) translateY(-80px);
+  }
+}
+
+/* line 3, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama {
+  max-width: 643.78px;
+  height: 84px;
+}
+/* line 7, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama .correction {
+  -webkit-transform: translate(0px, 21.186px);
+  transform: translate(0px, 21.186px);
+}
+/* line 13, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama #wing_x5F_onama_x5F_right_x5F_fix > *,
+.svg-ptica-onama #wing_x5F_onama_x5F_left_x5F_fix > * {
+  -webkit-transform: translate(0px, -21.186px);
+  -moz-transform: translate(0px, -21.186px);
+  transform: translate(0px, -21.186px);
+}
+
+/* line 20, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama-inner {
+  -webkit-animation-name: pticaonamatranslate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  animation-name: pticaonamatranslate;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes pticaonamatranslate {
+  /* line 33, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -webkit-transform: translateX(643.78px);
+  }
+
+  /* line 34, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes pticaonamatranslate {
+  /* line 38, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -moz-transform: translateX(643.78px);
+  }
+
+  /* line 39, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -moz-transform: translateX(0);
+  }
+}
+
+@keyframes pticaonamatranslate {
+  /* line 43, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    transform: translateX(643.78px);
+  }
+
+  /* line 44, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* line 65, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama #wing_x5F_onama_x5F_right_x5F_fix {
+  -webkit-animation-name: wing_onama_right;
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  -moz-animation-name: wing_onama_right;
+  -moz-animation-duration: 0.25s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -moz-animation-direction: alternate;
+  animation-name: wing_onama_right;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes wing_onama_right {
+  /* line 86, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -webkit-transform: rotate(20deg);
+  }
+
+  /* line 87, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes wing_onama_right {
+  /* line 91, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -moz-transform: rotate(20deg);
+  }
+
+  /* line 92, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@keyframes wing_onama_right {
+  /* line 96, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    transform: rotate(20deg);
+  }
+
+  /* line 97, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 102, includes/sass/_layout-svg-anim-onama.scss */
+.svg-ptica-onama #wing_x5F_onama_x5F_left_x5F_fix {
+  -webkit-animation-name: wing_onama_left;
+  -webkit-animation-duration: 0.25s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+  animation-name: wing_onama_left;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes wing_onama_left {
+  /* line 117, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -webkit-transform: rotate(20deg);
+  }
+
+  /* line 118, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes wing_onama_left {
+  /* line 122, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    -moz-transform: rotate(20deg);
+  }
+
+  /* line 123, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@keyframes wing_onama_left {
+  /* line 127, includes/sass/_layout-svg-anim-onama.scss */
+  0% {
+    transform: rotate(20deg);
+  }
+
+  /* line 128, includes/sass/_layout-svg-anim-onama.scss */
+  100% {
+    transform: rotate(0deg);
   }
 }

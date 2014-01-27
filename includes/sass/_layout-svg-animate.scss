@@ -1,3 +1,9 @@
+.svg-responsive {
+	width: 100%;
+	height: 100%;
+}
+
+// Oblaci
 .fade {
 	opacity: 1;
 }
@@ -12,6 +18,40 @@
 .fade:hover .oblak {
 	opacity: 1;
 }
+
+.oblak text {
+  text-anchor: middle;
+  // font-family: $font-secondary;
+}
+
+// Oblak puz
+#oblak-puz text {
+  -webkit-transform: translate(161.687px, 309.943px);
+  -moz-transform: translate(161.687px, 309.943px);
+  -o-transform: translate(161.687px, 309.943px);
+  -ms-transform: translate(161.687px, 309.943px);
+  transform: translate(161.687px, 309.943px);
+}
+
+// Oblak jez
+#oblak-jez text {
+  -webkit-transform: translate(278.753px, 385.381px);
+  -moz-transform: translate(278.753px, 385.381px);
+  -o-transform: translate(278.753px, 385.381px);
+  -ms-transform: translate(278.753px, 385.381px);
+  transform: translate(278.753px, 385.381px);
+}
+
+// Oblak pas
+#oblak-pas text {
+  -webkit-transform: translate(645.939px, 312.978px);
+  -moz-transform: translate(645.939px, 312.978px);
+  -o-transform: translate(645.939px, 312.978px);
+  -ms-transform: translate(645.939px, 312.978px);
+  transform: translate(645.939px, 312.978px);
+}
+
+
 
 
 // Puz
@@ -30,59 +70,426 @@
 }
 
 @-webkit-keyframes hohoho { 
-  0% { -webkit-transform: scaleY(1.1) scaleX(1.2); } 
-  5% {  -webkit-transform: scaleY(2) scaleX(.9); } 
+  0%  { -webkit-transform: scaleY(1.1) scaleX(1.2); } 
+  5%  {  -webkit-transform: scaleY(2) scaleX(.9); } 
   10% {  -webkit-transform: scaleY(1.1) scaleX(1); } 
   15% {  -webkit-transform: scaleY(2) scaleX(.9); } 
   20% {  -webkit-transform: scaleY(1.1) scaleX(1); } 
   27% {  -webkit-transform: scaleY(2) scaleX(.95); } 
   27% {  -webkit-transform: scaleY(2) scaleX(.95); } 
-  27.5% {  -webkit-transform: scaleY(2) scaleX(.95); } 
   43% {  -webkit-transform: scaleY(1.1) scaleX(1.2); } 
   100% {  -webkit-transform: scaleY(1.1) scaleX(1.2); } 
 }
 
 @keyframes hohoho { 
-  0%  { transform: scaleY(1.1) scaleX(1.2); } 
-  5% {  transform: scaleY(2) scaleX(.9); } 
-  10% {  transform: scaleY(1.1) scaleX(1); } 
-  15% {  transform: scaleY(2) scaleX(.9); } 
-  20% {  transform: scaleY(1.1) scaleX(1); } 
-  27% {  transform: scaleY(2) scaleX(.95); } 
-  27% {  transform: scaleY(2) scaleX(.95); } 
-  27.5% {  transform: scaleY(2) scaleX(.95); } 
-  43% {  transform: scaleY(1.1) scaleX(1.2); } 
-  100% {  transform: scaleY(1.1) scaleX(1.2); } 
+	0%  { transform: scaleY(1.1) scaleX(1.2); } 
+	5%  {  transform: scaleY(2) scaleX(.9); } 
+	10% {  transform: scaleY(1.1) scaleX(1); } 
+	15% {  transform: scaleY(2) scaleX(.9); } 
+	20% {  transform: scaleY(1.1) scaleX(1); } 
+	27% {  transform: scaleY(2) scaleX(.95); } 
+	27% {  transform: scaleY(2) scaleX(.95); } 
+	43% {  transform: scaleY(1.1) scaleX(1.2); } 
+	100% {  transform: scaleY(1.1) scaleX(1.2); } 
+}
+
+
+// Jez
+// Jez blinkanje
+#jezoko {
+	-webkit-animation-name: jezblink;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-transform-origin: 50%;
+
+	animation-name: jezblink;
+	animation-duration: 8s;
+	animation-iteration-count: infinite; 
+	transform-origin: 50%;
+
+	-moz-animation: none;
+}
+
+@-webkit-keyframes jezblink { 
+	0% { -webkit-transform: scaleX(1) scaleY(1); } 
+	1% { -webkit-transform: scaleX(1.3) scaleY(0.1); } 
+	2% { -webkit-transform: scaleX(1) scaleY(1); } 
+	60% { -webkit-transform: scaleX(1) scaleY(1); } 
+	61% { -webkit-transform: scaleX(1.3) scaleY(0.1);} 
+	62% { -webkit-transform: scaleX(1) scaleY(1); } 
+	100% { -webkit-transform: scaleX(1) scaleY(1); }
+}
+
+@keyframes jezblink { 
+	0% { transform: scaleX(1) scaleY(1); } 
+	1% { transform: scaleX(1.3) scaleY(0.1); } 
+	2% { transform: scaleX(1) scaleY(1); } 
+	60% { transform: scaleX(1) scaleY(1); } 
+	61% { transform: scaleX(1.3) scaleY(0.1);} 
+	62% { transform: scaleX(1) scaleY(1); } 
+	100% { transform: scaleX(1) scaleY(1); }
+}
+
+
+
+// ------------------------------------ [ JezPuz translate ]
+#jezpuz {
+	-webkit-animation-name: jezpuz;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+	animation-name: jezpuz;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes jezpuz {
+	0% {
+	-webkit-transform: translateX(0);
+	}
+	100% {
+		-webkit-transform: translateX(120px);
+	}
+}
+
+@keyframes jezpuz {
+	0% {
+	transform: translateX(0);
+	}
+	100% {
+		transform: translateX(120px);
+	}
+}
+
+// JezPuz kotaci
+.kotac {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 3s; 
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0;
+	-webkit-transform-origin: 50% 52%;
+	-moz-transform-origin: 50% 52%;
+	-o-transform-origin: 50% 52%;
+	-ms-transform-origin: 50% 52%;
+	transform-origin: 50% 52%;
+
+	animation-name: spin;
+	animation-duration: 3s; 
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-delay: 0;
+}
+
+@-webkit-keyframes spin { 
+	100% { -webkit-transform: rotate(4turn); }
+}
+
+@keyframes spin { 
+  100% { transform: rotate(4turn); }
+}
+
+
+
+// Pas
+// Pas mahanje repom
+#pas #rep {
+	-webkit-animation-name: mahanjerepom;
+	-webkit-animation-duration: 0.5s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0;
+	-webkit-animation-direction: alternate;
+	-webkit-transform-origin: bottom left;
+	-moz-transform-origin: bottom left;
+	-o-transform-origin: bottom left;
+	-ms-transform-origin: bottom left;
+	transform-origin: bottom left;
+
+	animation-name: mahanjerepom;
+	animation-duration: 0.5s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjerepom { 
+	0% { -webkit-transform: rotateZ(3deg); }
+	100% { -webkit-transform: rotateZ(-3deg); }
+}
+
+@keyframes mahanjerepom { 
+  0% { transform: rotateZ(3deg); }
+  100% { transform: rotateZ(-3deg); }
+}
+
+// Pas blinkanje
+#pasoko {
+	-webkit-animation-name: pasblink;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-transform-origin: 50%;
+
+	animation-name: pasblink;
+	animation-duration: 8s;
+	animation-iteration-count: infinite; 
+	transform-origin: 50%;
+
+	-moz-animation: none;
+}
+
+@-webkit-keyframes pasblink { 
+	0% { -webkit-transform: scaleX(1) scaleY(1); } 
+	1% { -webkit-transform: scaleX(1.3) scaleY(0.1); } 
+	2% { -webkit-transform: scaleX(1) scaleY(1); } 
+	60% { -webkit-transform: scaleX(1) scaleY(1); } 
+	61% { -webkit-transform: scaleX(1.3) scaleY(0.1);} 
+	62% { -webkit-transform: scaleX(1) scaleY(1); } 
+	100% { -webkit-transform: scaleX(1) scaleY(1); }
+}
+
+@keyframes pasblink { 
+	0% { transform: scaleX(1) scaleY(1); } 
+	1% { transform: scaleX(1.3) scaleY(0.1); } 
+	2% { transform: scaleX(1) scaleY(1); } 
+	60% { transform: scaleX(1) scaleY(1); } 
+	61% { transform: scaleX(1.3) scaleY(0.1);} 
+	62% { transform: scaleX(1) scaleY(1); } 
+	100% { transform: scaleX(1) scaleY(1); }
 }
 
 
 // Candycanes
-#treecandy:hover #candycane3 {
-	-webkit-animation-name: bellring;
-	-webkit-animation-duration: 3s; 
+#treecandy:hover #candycane1,
+#treecandy:hover #candycane2,
+#treecandy:hover #candycane3,
+#treecandy:hover #candycane4,
+#treecandy:hover #candycane5 {
+	-webkit-animation-name: candycanes;
+	-webkit-animation-duration: 1s; 
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-delay: -1.5s;
+	-webkit-animation-delay: -0.5s;
 	-webkit-animation-direction: alternate;
 	-webkit-transform-origin: 50% 0%;
 
-	animation-name: bellring;
-	animation-duration: 3s; 
+	animation-name: candycanes;
+	animation-duration: 1s; 
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	animation-delay: -1.5s;
+	animation-delay: -0.5s;
 	animation-direction: alternate;
 	transform-origin: 50% 0%;
-	
-	-moz-animation: none;
+	-moz-transform-origin: 50% 0%;
 }
 
-@-webkit-keyframes bellring { 
+@-webkit-keyframes candycanes { 
 	0% { -webkit-transform: rotateZ(7deg); }
 	100% { -webkit-transform: rotateZ(-7deg); }
 }
 
-@keyframes bellring { 
-	0% { transform: rotateZ(7deg); }
-	100% { transform: rotateZ(-7deg); }
+@keyframes candycanes { 
+  0% { transform: rotateZ(7deg); }
+  100% { transform: rotateZ(-7deg); }
 }
+
+
+
+// Ptice
+// Ptica mahanje krilom desno
+.bird_wing_right {
+	-webkit-animation-name: mahanjekrilod;
+	-webkit-animation-duration: 0.25s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0;
+	-webkit-animation-direction: alternate;
+	-webkit-transform-origin: bottom right;
+	-moz-transform-origin: bottom right;
+	-o-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	transform-origin: bottom right;
+
+	animation-name: mahanjekrilod;
+	animation-duration: 0.25s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjekrilod { 
+	0% { -webkit-transform: rotateZ(20deg); }
+	100% { -webkit-transform: rotateZ(-20deg); }
+}
+
+@keyframes mahanjekrilod { 
+  0% { transform: rotateZ(20deg); }
+  100% { transform: rotateZ(-20deg); }
+}
+
+// Ptica mahanje krilom ljevo
+.bird_wing_left {
+	-webkit-animation-name: mahanjekrilol;
+	-webkit-animation-duration: 0.25s; 
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0;
+	-webkit-animation-direction: alternate;
+	-webkit-transform-origin: bottom right;
+	-moz-transform-origin: bottom right;
+	-o-transform-origin: bottom right;
+	-ms-transform-origin: bottom right;
+	transform-origin: bottom right;
+
+	animation-name: mahanjekrilol;
+	animation-duration: 0.25s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes mahanjekrilol { 
+	0% { -webkit-transform: rotateZ(20deg); }
+	100% { -webkit-transform: rotateZ(-20deg); }
+}
+
+@keyframes mahanjekrilol { 
+  0% { transform: rotateZ(20deg); }
+  100% { transform: rotateZ(-20deg); }
+}
+
+
+
+// Ptica 1 translate
+#treecandy:hover #bird_x5F_1 {
+	-webkit-animation-name: birdy1;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+	animation-name: birdy1;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy1 {
+	0% {
+	-webkit-transform: translateX(0);
+	}
+	50% {
+		-webkit-transform: translateX(250px) translateY(-40px);
+	}
+	100% {
+		-webkit-transform: translateX(550px);
+	}
+}
+
+@keyframes birdy1 {
+	0% {
+	transform: translateX(0);
+	}
+	50% {
+		transform: translateX(250px) translateY(-40px);
+	}
+	100% {
+		transform: translateX(550px);
+	}
+}
+
+
+// Ptica 2 translate
+#treecandy:hover #bird_x5F_2 {
+	-webkit-animation-name: birdy2;
+	-webkit-animation-duration: 3.2s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+	animation-name: birdy2;
+	animation-duration: 3.2s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy2 {
+	0% {
+	-webkit-transform: translateX(0);
+	}
+	44% {
+		-webkit-transform: translateX(200px) translateY(-20px);
+	}
+	100% {
+		-webkit-transform: translateX(500px);
+	}
+}
+
+@keyframes birdy2 {
+	0% {
+	transform: translateX(0);
+	}
+	44% {
+		transform: translateX(200px) translateY(-20px);
+	}
+	100% {
+		transform: translateX(500px);
+	}
+}
+
+
+// Ptica 3 translate
+#treecandy:hover #bird_x5F_3 {
+	-webkit-animation-name: birdy3;
+	-webkit-animation-duration: 3.6s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+
+	animation-name: birdy3;
+	animation-duration: 3.6s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes birdy3 {
+	0% {
+	-webkit-transform: translateX(0);
+	}
+	34% {
+		-webkit-transform: translateX(170px) translateY(-60px);
+	}
+	100% {
+		-webkit-transform: translateX(500px) translateY(-80px);
+	}
+}
+
+@keyframes birdy3 {
+	0% {
+	transform: translateX(0);
+	}
+	34% {
+		transform: translateX(170px) translateY(-60px);
+	}
+	100% {
+		transform: translateX(500px) translateY(-80px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
