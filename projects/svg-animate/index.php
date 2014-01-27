@@ -7,8 +7,8 @@
 
 		<div class="row" id="animate">
 			
-			<?php include ('images/ptica-onama.min.svg') ?>
-			<?php include ('images/jez-onama.min.svg') ?>
+			<?php include ('images/ptica-onama.min.svg') ?><br />
+			<?php //include ('images/jez-onama.min.svg') ?>
 			<?php //include ('images/intro.min.svg') ?>
 
 		</div>

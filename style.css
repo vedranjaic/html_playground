@@ -8734,60 +8734,62 @@ h5 {
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
+  -webkit-animation-direction: normal;
   animation-name: pticaonamatranslate;
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
+  animation-direction: normal;
 }
 
 @-webkit-keyframes pticaonamatranslate {
-  /* line 99, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 101, includes/sass/_layout-svg-anim-onama.scss */
   0% {
     -webkit-transform: translateX(643.78px);
   }
 
-  /* line 100, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 102, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     -webkit-transform: translateX(0);
   }
 }
 
 @-moz-keyframes pticaonamatranslate {
-  /* line 104, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 106, includes/sass/_layout-svg-anim-onama.scss */
   0% {
     -moz-transform: translateX(643.78px);
   }
 
-  /* line 105, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 107, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     -moz-transform: translateX(0);
   }
 }
 
 @keyframes pticaonamatranslate {
-  /* line 109, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 111, includes/sass/_layout-svg-anim-onama.scss */
   0% {
     transform: translateX(643.78px);
   }
 
-  /* line 110, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 112, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     transform: translateX(0);
   }
 }
 
-/* line 116, includes/sass/_layout-svg-anim-onama.scss */
+/* line 118, includes/sass/_layout-svg-anim-onama.scss */
 .svg-jez-onama {
   max-width: 400px;
   max-height: 45px;
 }
-/* line 120, includes/sass/_layout-svg-anim-onama.scss */
+/* line 122, includes/sass/_layout-svg-anim-onama.scss */
 .svg-jez-onama .correction {
   display: inline-block;
   -webkit-transform: translate(6px, 6px);
   transform: translate(6px, 6px);
 }
-/* line 127, includes/sass/_layout-svg-anim-onama.scss */
+/* line 129, includes/sass/_layout-svg-anim-onama.scss */
 .svg-jez-onama #jez_x5F_onama_x5F_kotac_x5F_r_x5F_fix > *,
 .svg-jez-onama #jez_x5F_onama_x5F_kotac_x5F_l_x5F_fix > * {
   -webkit-transform: translate(-6px, -6px);
@@ -8795,7 +8797,7 @@ h5 {
   transform: translate(-6px, -6px);
 }
 
-/* line 134, includes/sass/_layout-svg-anim-onama.scss */
+/* line 136, includes/sass/_layout-svg-anim-onama.scss */
 .svg-jez-onama .kotacici {
   -webkit-animation-name: spinara;
   -webkit-animation-duration: 3s;
@@ -8814,62 +8816,62 @@ h5 {
 }
 
 @-webkit-keyframes spinara {
-  /* line 154, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 156, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     -webkit-transform: rotate(4turn);
   }
 }
 
 @keyframes spinara {
-  /* line 158, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 160, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     transform: rotate(4turn);
   }
 }
 
-/* line 162, includes/sass/_layout-svg-anim-onama.scss */
+/* line 164, includes/sass/_layout-svg-anim-onama.scss */
 .svg-jez-onama-inner {
-  -webkit-animation-name: pticaonamatranslate;
+  -webkit-animation-name: jezonamatranslate;
   -webkit-animation-duration: 6s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease;
-  animation-name: pticaonamatranslate;
+  animation-name: jezonamatranslate;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
 }
 
-@-webkit-keyframes pticaonamatranslate {
-  /* line 175, includes/sass/_layout-svg-anim-onama.scss */
+@-webkit-keyframes jezonamatranslate {
+  /* line 177, includes/sass/_layout-svg-anim-onama.scss */
   50% {
     -webkit-transform: translateX(325px);
   }
 
-  /* line 176, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 178, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     -webkit-transform: translateX(0);
   }
 }
 
-@-moz-keyframes pticaonamatranslate {
-  /* line 180, includes/sass/_layout-svg-anim-onama.scss */
+@-moz-keyframes jezonamatranslate {
+  /* line 182, includes/sass/_layout-svg-anim-onama.scss */
   50% {
     -moz-transform: translateX(325px);
   }
 
-  /* line 181, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 183, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     -moz-transform: translateX(0);
   }
 }
 
-@keyframes pticaonamatranslate {
-  /* line 185, includes/sass/_layout-svg-anim-onama.scss */
+@keyframes jezonamatranslate {
+  /* line 187, includes/sass/_layout-svg-anim-onama.scss */
   50% {
     transform: translateX(325px);
   }
 
-  /* line 186, includes/sass/_layout-svg-anim-onama.scss */
+  /* line 188, includes/sass/_layout-svg-anim-onama.scss */
   100% {
     transform: translateX(0);
   }

@@ -88,11 +88,13 @@
 	-webkit-animation-duration: 3s;
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-direction: normal;
 
 	animation-name: pticaonamatranslate;
 	animation-duration: 3s;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-out;
+	animation-direction: normal;
 }
 
 @-webkit-keyframes pticaonamatranslate {
@@ -160,28 +162,28 @@
 
 // ------------------------------------ [ Jez-onama translate ]
 .svg-jez-onama-inner {
-	-webkit-animation-name: pticaonamatranslate;
+	-webkit-animation-name: jezonamatranslate;
 	-webkit-animation-duration: 6s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: ease;
 
-	animation-name: pticaonamatranslate;
+	animation-name: jezonamatranslate;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease;
 }
 
-@-webkit-keyframes pticaonamatranslate {
+@-webkit-keyframes jezonamatranslate {
 	50% { -webkit-transform: translateX(325px); }
 	100% { -webkit-transform: translateX(0); }
 }
 
-@-moz-keyframes pticaonamatranslate {
+@-moz-keyframes jezonamatranslate {
 	50% { -moz-transform: translateX(325px); }
 	100% { -moz-transform: translateX(0); }
 }
 
-@keyframes pticaonamatranslate {
+@keyframes jezonamatranslate {
 	50% { transform: translateX(325px); }
 	100% { transform: translateX(0); }
 }
