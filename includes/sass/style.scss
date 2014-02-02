@@ -16,10 +16,11 @@ Author: GINGER
 // Pages layout
 @import "defaults";
 @import "header";
-@import "layout-index"; // Playground index
+@import "layout-index"; // Playground main index
+@import "layout-svg-smil";
 @import "layout-svg-optimize"; // projects/svg-optimize
 @import "layout-svg-animate"; // projects/svg-animate
-@import "layout-svg-anim-onama";
+@import "layout-svg-anim-onama"; // projects/svg-animate
 @import "footer";
 
 // RWD

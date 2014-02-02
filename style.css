@@ -7859,6 +7859,12 @@ h5 {
   margin-top: 16px;
 }
 
+/* line 2, includes/sass/_layout-index.scss */
+.project {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* line 3, includes/sass/_layout-svg-optimize.scss */
 .svg-sample h5 {
   line-height: 1.4em;

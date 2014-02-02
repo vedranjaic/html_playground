@@ -41,8 +41,8 @@ header("Pragma: no-cache");
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projekti <b class="caret"></b></a>
 					<ul class="dropdown-menu">
+						<li><a href="/projects/svg-smil/">SVG SMIL</a></li>
 						<li><a href="/projects/svg-optimize/">SVG Optimize</a></li>
-						<li class="divider"></li>
 						<li><a href="/projects/svg-animate/">SVG Animate</a></li>
 					</ul>
 				</li>
