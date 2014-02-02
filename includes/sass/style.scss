@@ -4,6 +4,9 @@ Version: ALL
 Author: GINGER
 */
 
+// Bootstrap 3.0.3
+@import "includes/css/_bootstrap.min.scss";
+
 // ------------------------------------[ style.css start ]
 // Defaults
 @import "variables";
@@ -13,7 +16,11 @@ Author: GINGER
 // Pages layout
 @import "defaults";
 @import "header";
-@import "layout-index";
+@import "layout-index"; // Playground main index
+@import "layout-svg-smil";
+@import "layout-svg-optimize"; // projects/svg-optimize
+@import "layout-svg-animate"; // projects/svg-animate
+@import "layout-svg-anim-onama"; // projects/svg-animate
 @import "footer";
 
 // RWD
