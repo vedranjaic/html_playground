@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<circle id="krugy" cx="30%" cy="50%" r="15%" fill="lightgreen" stroke="#e60" stroke-width="5" />
-	<circle cx="50%" cy="50%" r="15%" fill="none" stroke="#e60" stroke-width="5" />
-	<ellipse cx="50%" cy="50%" rx="10%" ry="5%" fill="yellow" fill-opacity="0.45" stroke="purple" stroke-width="5" />
+	<defs>
+		<pattern id="grid" width="10" height="10">
+			<rect width="10" height="10" fill="none" stroke="lightgrey" stroke-width="0.1" />
+		</pattern>
+	</defs>
+	<g>
+		<rect width="100%" height="100%" x="0" y="0" fill="url(#grid)" />
+		<circle id="krugy" cx="30%" cy="50%" r="15%" fill="lightgreen" stroke="#e60" stroke-width="5" />
+		<circle cx="50%" cy="50%" r="15%" fill="none" stroke="#e60" stroke-width="5" />
+		<ellipse cx="50%" cy="50%" rx="10%" ry="5%" fill="yellow" fill-opacity="0.45" stroke="purple" stroke-width="5" />
+	</g>
 </svg>
